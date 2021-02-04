@@ -1,0 +1,137 @@
+11564   [207]   INFO   2021-01-11 14:29:26.691   TM1.Process   Process "}tp_initialize_session" executed by user "UOFA/a1139057_CAMID(_UOFA_u_b486b36f0e3d5746b0c9b0e9315437e7_)"   - Richard Boyer
+11564   [207]   INFO   2021-01-11 14:29:26.692   TM1.Process   Process "}tp_initialize_session":  finished executing normally, elapsed time 0.02 seconds
+14084   [208]   INFO   2021-01-11 14:30:30.960   TM1.Process   Process "}tp_initialize_session" executed by user "UOFA/a1139057_CAMID(_UOFA_u_b486b36f0e3d5746b0c9b0e9315437e7_)"
+14084   [208]   INFO   2021-01-11 14:30:30.961   TM1.Process   Process "}tp_initialize_session":  finished executing normally, elapsed time 0.00 seconds
+12664   [20a]   INFO   2021-01-12 00:00:02.169   TM1.Process   Process "x_DATA - Save all" executed by user "UOFA/Service Account - Cognos"
+12664   [20a]   INFO   2021-01-12 00:00:02.177   TM1.Process   Process "x_DATA - Save all":  finished executing normally, elapsed time 0.02 seconds
+12612   [20c]   INFO   2021-01-12 05:16:04.153   TM1.Process   Process "DIM - UPP Project" executed by user "UOFA/Service Account - Cognos"
+12612   [20c]   INFO   2021-01-12 05:16:04.653   TM1.SQLAPI   Checking Driver Capabilities for database "DW_COGNOS" 
+12612   [20c]   INFO   2021-01-12 05:16:04.653   TM1.SQLAPI         Driver supports SQLFetchScroll
+12612   [20c]   INFO   2021-01-12 05:16:47.788   TM1.Process   Process "x_TUL - Cube Update - TI Monitor" run from process "DIM - UPP Project" by user "UOFA/Service Account - Cognos"
+12612   [20c]   INFO   2021-01-12 05:16:47.906   TM1.Process   Process "x_TUL - Cube Update - TI Monitor":  finished executing normally, elapsed time 0.13 seconds
+12612   [20c]   INFO   2021-01-12 05:16:47.938   TM1.Process   Process "DIM - UPP Project":  finished executing normally, elapsed time 43.78 seconds
+14120   [20e]   INFO   2021-01-12 05:16:48.326   TM1.Process   Process "DIM - UPP Project Department" executed by user "UOFA/Service Account - Cognos"
+14120   [20e]   INFO   2021-01-12 05:16:48.786   TM1.SQLAPI   Checking Driver Capabilities for database "DW_COGNOS" 
+14120   [20e]   INFO   2021-01-12 05:16:48.786   TM1.SQLAPI         Driver supports SQLFetchScroll
+14120   [20e]   INFO   2021-01-12 05:17:16.697   TM1.Process   Process "x_TUL - Cube Update - TI Monitor" run from process "DIM - UPP Project Department" by user "UOFA/Service Account - Cognos"
+14120   [20e]   INFO   2021-01-12 05:17:16.801   TM1.Process   Process "x_TUL - Cube Update - TI Monitor":  finished executing normally, elapsed time 0.11 seconds
+14120   [20e]   INFO   2021-01-12 05:17:16.832   TM1.Process   Process "DIM - UPP Project Department":  finished executing normally, elapsed time 28.50 seconds
+13156   [210]   INFO   2021-01-12 05:17:17.277   TM1.Process   Process "DATA - Load UPP Forecast Cube" executed by user "UOFA/Service Account - Cognos"
+13156   [210]   INFO   2021-01-12 05:18:25.599   TM1.SQLAPI   Checking Driver Capabilities for database "DW_COGNOS" 
+13156   [210]   INFO   2021-01-12 05:18:25.599   TM1.SQLAPI         Driver supports SQLFetchScroll
+13156   [210]   INFO   2021-01-12 05:23:51.112   TM1.Process   Process "x_DATA - Cube Logging Set" run from process "DATA - Load UPP Forecast Cube" by user "UOFA/Service Account - Cognos"
+13156   [210]   INFO   2021-01-12 05:23:51.113   TM1.Process   Process "x_DATA - Cube Logging Set":  finished executing normally, elapsed time 0.02 seconds
+13156   [210]   INFO   2021-01-12 05:23:51.113   TM1.Process   Process "x_TUL - Cube Update - TI Monitor" run from process "DATA - Load UPP Forecast Cube" by user "UOFA/Service Account - Cognos"
+13156   [210]   INFO   2021-01-12 05:23:51.219   TM1.Process   Process "x_TUL - Cube Update - TI Monitor":  finished executing normally, elapsed time 0.09 seconds
+13156   [210]   INFO   2021-01-12 05:23:51.227   TM1.Process   Process "DATA - Load UPP Forecast Cube":  finished executing normally, elapsed time 393.95 seconds
+11932   [212]   INFO   2021-01-12 05:23:54.635   TM1.Process   Process "DATA - Load UPP Budget Cube" executed by user "UOFA/Service Account - Cognos"
+11932   [212]   INFO   2021-01-12 05:24:41.676   TM1.SQLAPI   Checking Driver Capabilities for database "DW_COGNOS" 
+11932   [212]   INFO   2021-01-12 05:24:41.676   TM1.SQLAPI         Driver supports SQLFetchScroll
+11932   [212]   INFO   2021-01-12 05:28:54.853   TM1.Process   Process "x_DATA - Cube Logging Set" run from process "DATA - Load UPP Budget Cube" by user "UOFA/Service Account - Cognos"
+11932   [212]   INFO   2021-01-12 05:28:54.854   TM1.Process   Process "x_DATA - Cube Logging Set":  finished executing normally, elapsed time 0.00 seconds
+11932   [212]   INFO   2021-01-12 05:28:54.854   TM1.Process   Process "x_TUL - Cube Update - TI Monitor" run from process "DATA - Load UPP Budget Cube" by user "UOFA/Service Account - Cognos"
+11932   [212]   INFO   2021-01-12 05:28:54.959   TM1.Process   Process "x_TUL - Cube Update - TI Monitor":  finished executing normally, elapsed time 0.11 seconds
+11932   [212]   INFO   2021-01-12 05:28:54.966   TM1.Process   Process "DATA - Load UPP Budget Cube":  finished executing normally, elapsed time 300.34 seconds
+13488   [214]   INFO   2021-01-12 05:28:57.379   TM1.Process   Process "DATA - Copy Live Forecast to Interim Budget Scenario" executed by user "UOFA/Service Account - Cognos"
+13488   [214]   INFO   2021-01-12 05:29:07.263   TM1.Process   Process "x_DATA - Cube Logging Set" run from process "DATA - Copy Live Forecast to Interim Budget Scenario" by user "UOFA/Service Account - Cognos"
+13488   [214]   INFO   2021-01-12 05:29:07.264   TM1.Process   Process "x_DATA - Cube Logging Set":  finished executing normally, elapsed time 0.00 seconds
+13488   [214]   INFO   2021-01-12 05:29:07.264   TM1.Process   Process "x_TUL - Cube Update - TI Monitor" run from process "DATA - Copy Live Forecast to Interim Budget Scenario" by user "UOFA/Service Account - Cognos"
+13488   [214]   INFO   2021-01-12 05:29:07.382   TM1.Process   Process "x_TUL - Cube Update - TI Monitor":  finished executing normally, elapsed time 0.11 seconds
+13488   [214]   INFO   2021-01-12 05:29:07.383   TM1.Process   Process "DATA - Copy Live Forecast to Interim Budget Scenario":  finished executing normally, elapsed time 10.00 seconds
+13056   [216]   INFO   2021-01-12 05:29:07.707   TM1.Process   Process "DATA - Copy Live Forecast to Interim Budget Scenario" executed by user "UOFA/Service Account - Cognos"
+13056   [216]   INFO   2021-01-12 05:29:13.100   TM1.Process   Process "x_DATA - Cube Logging Set" run from process "DATA - Copy Live Forecast to Interim Budget Scenario" by user "UOFA/Service Account - Cognos"
+13056   [216]   INFO   2021-01-12 05:29:13.102   TM1.Process   Process "x_DATA - Cube Logging Set":  finished executing normally, elapsed time 0.00 seconds
+13056   [216]   INFO   2021-01-12 05:29:13.102   TM1.Process   Process "x_TUL - Cube Update - TI Monitor" run from process "DATA - Copy Live Forecast to Interim Budget Scenario" by user "UOFA/Service Account - Cognos"
+13056   [216]   INFO   2021-01-12 05:29:13.265   TM1.Process   Process "x_TUL - Cube Update - TI Monitor":  finished executing normally, elapsed time 0.17 seconds
+13056   [216]   INFO   2021-01-12 05:29:13.266   TM1.Process   Process "DATA - Copy Live Forecast to Interim Budget Scenario":  finished executing normally, elapsed time 5.56 seconds
+12856   [218]   INFO   2021-01-12 05:29:13.601   TM1.Process   Process "DATA - Copy Live Forecast to Interim Budget Scenario" executed by user "UOFA/Service Account - Cognos"
+12856   [218]   INFO   2021-01-12 05:29:18.003   TM1.Process   Process "x_DATA - Cube Logging Set" run from process "DATA - Copy Live Forecast to Interim Budget Scenario" by user "UOFA/Service Account - Cognos"
+12856   [218]   INFO   2021-01-12 05:29:18.004   TM1.Process   Process "x_DATA - Cube Logging Set":  finished executing normally, elapsed time 0.00 seconds
+12856   [218]   INFO   2021-01-12 05:29:18.004   TM1.Process   Process "x_TUL - Cube Update - TI Monitor" run from process "DATA - Copy Live Forecast to Interim Budget Scenario" by user "UOFA/Service Account - Cognos"
+12856   [218]   INFO   2021-01-12 05:29:18.110   TM1.Process   Process "x_TUL - Cube Update - TI Monitor":  finished executing normally, elapsed time 0.11 seconds
+12856   [218]   INFO   2021-01-12 05:29:18.111   TM1.Process   Process "DATA - Copy Live Forecast to Interim Budget Scenario":  finished executing normally, elapsed time 4.52 seconds
+9808   [21a]   INFO   2021-01-12 05:29:18.406   TM1.Process   Process "UTILITY - Check Overnight Jobs" executed by user "UOFA/Service Account - Cognos"
+9808   [21a]   INFO   2021-01-12 05:29:18.412   TM1.Process   Process "UTILITY - Check Overnight Jobs":  finished executing normally, elapsed time 0.00 seconds
+14060   [21c]   INFO   2021-01-12 05:29:18.687   TM1.Process   Process "x_DATA - Save all" executed by user "UOFA/Service Account - Cognos"
+14060   [21c]   INFO   2021-01-12 05:29:20.520   TM1.Process   Process "x_DATA - Save all":  finished executing normally, elapsed time 1.83 seconds
+13012   [21e]   INFO   2021-01-12 05:35:46.597   TM1.Process   Process "UTILITY - Check USP Extract File" executed by user "UOFA/Service Account - Cognos"
+13012   [21e]   INFO   2021-01-12 05:35:46.621   TM1.Process   Process "UTILITY - Check USP Extract File":  finished executing normally, elapsed time 0.02 seconds
+12900   [220]   INFO   2021-01-12 05:35:46.938   TM1.Process   Process "x_DATA - Save all" executed by user "UOFA/Service Account - Cognos"
+12900   [220]   INFO   2021-01-12 05:35:46.945   TM1.Process   Process "x_DATA - Save all":  finished executing normally, elapsed time 0.02 seconds
+11620   [222]   INFO   2021-01-12 10:01:37.464   TM1.Process   Process "UTILITY - Check USP Extract File" executed by user "UOFA/Service Account - Cognos"
+11620   [222]   INFO   2021-01-12 10:01:37.486   TM1.Process   Process "UTILITY - Check USP Extract File":  finished executing normally, elapsed time 0.02 seconds
+13300   [224]   INFO   2021-01-12 10:01:37.790   TM1.Process   Process "x_DATA - Save all" executed by user "UOFA/Service Account - Cognos"
+13300   [224]   INFO   2021-01-12 10:01:37.798   TM1.Process   Process "x_DATA - Save all":  finished executing normally, elapsed time 0.01 seconds
+9472   [225]   INFO   2021-01-12 13:17:05.738   TM1.Process   Process "}tp_initialize_session" executed by user "UOFA/a1171606"                                    - Abinhay
+9472   [225]   INFO   2021-01-12 13:17:05.739   TM1.Process   Process "}tp_initialize_session":  finished executing normally, elapsed time 0.00 seconds
+11320   [227]   INFO   2021-01-12 14:00:24.566   TM1.Process   Process "UTILITY - Check USP Extract File" executed by user "UOFA/Service Account - Cognos"
+11320   [227]   INFO   2021-01-12 14:00:24.603   TM1.Process   Process "UTILITY - Check USP Extract File":  finished executing normally, elapsed time 0.05 seconds
+9808   [229]   INFO   2021-01-12 14:00:24.926   TM1.Process   Process "x_DATA - Save all" executed by user "UOFA/Service Account - Cognos"
+9808   [229]   INFO   2021-01-12 14:00:24.934   TM1.Process   Process "x_DATA - Save all":  finished executing normally, elapsed time 0.02 seconds
+13376   [22b]   INFO   2021-01-13 00:00:01.790   TM1.Process   Process "x_DATA - Save all" executed by user "UOFA/Service Account - Cognos"
+13376   [22b]   INFO   2021-01-13 00:00:01.797   TM1.Process   Process "x_DATA - Save all":  finished executing normally, elapsed time 0.02 seconds
+12980   [22d]   INFO   2021-01-13 05:30:46.862   TM1.Process   Process "DIM - UPP Project" executed by user "UOFA/Service Account - Cognos"
+12980   [22d]   INFO   2021-01-13 05:30:47.294   TM1.SQLAPI   Checking Driver Capabilities for database "DW_COGNOS" 
+12980   [22d]   INFO   2021-01-13 05:30:47.294   TM1.SQLAPI         Driver supports SQLFetchScroll
+12980   [22d]   INFO   2021-01-13 05:31:29.109   TM1.Process   Process "x_TUL - Cube Update - TI Monitor" run from process "DIM - UPP Project" by user "UOFA/Service Account - Cognos"
+12980   [22d]   INFO   2021-01-13 05:31:29.213   TM1.Process   Process "x_TUL - Cube Update - TI Monitor":  finished executing normally, elapsed time 0.09 seconds
+12980   [22d]   INFO   2021-01-13 05:31:29.243   TM1.Process   Process "DIM - UPP Project":  finished executing normally, elapsed time 42.38 seconds
+12340   [22f]   INFO   2021-01-13 05:31:29.655   TM1.Process   Process "DIM - UPP Project Department" executed by user "UOFA/Service Account - Cognos"
+12340   [22f]   INFO   2021-01-13 05:31:30.069   TM1.SQLAPI   Checking Driver Capabilities for database "DW_COGNOS" 
+12340   [22f]   INFO   2021-01-13 05:31:30.069   TM1.SQLAPI         Driver supports SQLFetchScroll
+12340   [22f]   INFO   2021-01-13 05:31:57.439   TM1.Process   Process "x_TUL - Cube Update - TI Monitor" run from process "DIM - UPP Project Department" by user "UOFA/Service Account - Cognos"
+12340   [22f]   INFO   2021-01-13 05:31:57.552   TM1.Process   Process "x_TUL - Cube Update - TI Monitor":  finished executing normally, elapsed time 0.11 seconds
+12340   [22f]   INFO   2021-01-13 05:31:57.579   TM1.Process   Process "DIM - UPP Project Department":  finished executing normally, elapsed time 27.92 seconds
+10752   [231]   INFO   2021-01-13 05:31:58.012   TM1.Process   Process "DATA - Load UPP Forecast Cube" executed by user "UOFA/Service Account - Cognos"
+10752   [231]   INFO   2021-01-13 05:33:07.177   TM1.SQLAPI   Checking Driver Capabilities for database "DW_COGNOS" 
+10752   [231]   INFO   2021-01-13 05:33:07.177   TM1.SQLAPI         Driver supports SQLFetchScroll
+10752   [231]   INFO   2021-01-13 05:38:34.135   TM1.Process   Process "x_DATA - Cube Logging Set" run from process "DATA - Load UPP Forecast Cube" by user "UOFA/Service Account - Cognos"
+10752   [231]   INFO   2021-01-13 05:38:34.137   TM1.Process   Process "x_DATA - Cube Logging Set":  finished executing normally, elapsed time 0.00 seconds
+10752   [231]   INFO   2021-01-13 05:38:34.137   TM1.Process   Process "x_TUL - Cube Update - TI Monitor" run from process "DATA - Load UPP Forecast Cube" by user "UOFA/Service Account - Cognos"
+10752   [231]   INFO   2021-01-13 05:38:34.246   TM1.Process   Process "x_TUL - Cube Update - TI Monitor":  finished executing normally, elapsed time 0.11 seconds
+10752   [231]   INFO   2021-01-13 05:38:34.257   TM1.Process   Process "DATA - Load UPP Forecast Cube":  finished executing normally, elapsed time 396.24 seconds
+14236   [233]   INFO   2021-01-13 05:38:37.853   TM1.Process   Process "DATA - Load UPP Budget Cube" executed by user "UOFA/Service Account - Cognos"
+14236   [233]   INFO   2021-01-13 05:39:24.873   TM1.SQLAPI   Checking Driver Capabilities for database "DW_COGNOS" 
+14236   [233]   INFO   2021-01-13 05:39:24.873   TM1.SQLAPI         Driver supports SQLFetchScroll
+14236   [233]   INFO   2021-01-13 05:43:45.368   TM1.Process   Process "x_DATA - Cube Logging Set" run from process "DATA - Load UPP Budget Cube" by user "UOFA/Service Account - Cognos"
+14236   [233]   INFO   2021-01-13 05:43:45.370   TM1.Process   Process "x_DATA - Cube Logging Set":  finished executing normally, elapsed time 0.00 seconds
+14236   [233]   INFO   2021-01-13 05:43:45.370   TM1.Process   Process "x_TUL - Cube Update - TI Monitor" run from process "DATA - Load UPP Budget Cube" by user "UOFA/Service Account - Cognos"
+14236   [233]   INFO   2021-01-13 05:43:45.483   TM1.Process   Process "x_TUL - Cube Update - TI Monitor":  finished executing normally, elapsed time 0.13 seconds
+14236   [233]   INFO   2021-01-13 05:43:45.491   TM1.Process   Process "DATA - Load UPP Budget Cube":  finished executing normally, elapsed time 307.64 seconds
+12176   [235]   INFO   2021-01-13 05:43:47.936   TM1.Process   Process "DATA - Copy Live Forecast to Interim Budget Scenario" executed by user "UOFA/Service Account - Cognos"
+12176   [235]   INFO   2021-01-13 05:43:57.509   TM1.Process   Process "x_DATA - Cube Logging Set" run from process "DATA - Copy Live Forecast to Interim Budget Scenario" by user "UOFA/Service Account - Cognos"
+12176   [235]   INFO   2021-01-13 05:43:57.511   TM1.Process   Process "x_DATA - Cube Logging Set":  finished executing normally, elapsed time 0.00 seconds
+12176   [235]   INFO   2021-01-13 05:43:57.511   TM1.Process   Process "x_TUL - Cube Update - TI Monitor" run from process "DATA - Copy Live Forecast to Interim Budget Scenario" by user "UOFA/Service Account - Cognos"
+12176   [235]   INFO   2021-01-13 05:43:57.619   TM1.Process   Process "x_TUL - Cube Update - TI Monitor":  finished executing normally, elapsed time 0.11 seconds
+12176   [235]   INFO   2021-01-13 05:43:57.620   TM1.Process   Process "DATA - Copy Live Forecast to Interim Budget Scenario":  finished executing normally, elapsed time 9.67 seconds
+13936   [237]   INFO   2021-01-13 05:43:57.984   TM1.Process   Process "DATA - Copy Live Forecast to Interim Budget Scenario" executed by user "UOFA/Service Account - Cognos"
+13936   [237]   INFO   2021-01-13 05:44:03.307   TM1.Process   Process "x_DATA - Cube Logging Set" run from process "DATA - Copy Live Forecast to Interim Budget Scenario" by user "UOFA/Service Account - Cognos"
+13936   [237]   INFO   2021-01-13 05:44:03.309   TM1.Process   Process "x_DATA - Cube Logging Set":  finished executing normally, elapsed time 0.00 seconds
+13936   [237]   INFO   2021-01-13 05:44:03.309   TM1.Process   Process "x_TUL - Cube Update - TI Monitor" run from process "DATA - Copy Live Forecast to Interim Budget Scenario" by user "UOFA/Service Account - Cognos"
+13936   [237]   INFO   2021-01-13 05:44:03.424   TM1.Process   Process "x_TUL - Cube Update - TI Monitor":  finished executing normally, elapsed time 0.11 seconds
+13936   [237]   INFO   2021-01-13 05:44:03.424   TM1.Process   Process "DATA - Copy Live Forecast to Interim Budget Scenario":  finished executing normally, elapsed time 5.44 seconds
+14008   [239]   INFO   2021-01-13 05:44:03.783   TM1.Process   Process "DATA - Copy Live Forecast to Interim Budget Scenario" executed by user "UOFA/Service Account - Cognos"
+14008   [239]   INFO   2021-01-13 05:44:08.313   TM1.Process   Process "x_DATA - Cube Logging Set" run from process "DATA - Copy Live Forecast to Interim Budget Scenario" by user "UOFA/Service Account - Cognos"
+14008   [239]   INFO   2021-01-13 05:44:08.315   TM1.Process   Process "x_DATA - Cube Logging Set":  finished executing normally, elapsed time 0.00 seconds
+14008   [239]   INFO   2021-01-13 05:44:08.315   TM1.Process   Process "x_TUL - Cube Update - TI Monitor" run from process "DATA - Copy Live Forecast to Interim Budget Scenario" by user "UOFA/Service Account - Cognos"
+14008   [239]   INFO   2021-01-13 05:44:08.439   TM1.Process   Process "x_TUL - Cube Update - TI Monitor":  finished executing normally, elapsed time 0.13 seconds
+14008   [239]   INFO   2021-01-13 05:44:08.440   TM1.Process   Process "DATA - Copy Live Forecast to Interim Budget Scenario":  finished executing normally, elapsed time 4.66 seconds
+11528   [23b]   INFO   2021-01-13 05:44:08.769   TM1.Process   Process "UTILITY - Check Overnight Jobs" executed by user "UOFA/Service Account - Cognos"
+11528   [23b]   INFO   2021-01-13 05:44:08.777   TM1.Process   Process "UTILITY - Check Overnight Jobs":  finished executing normally, elapsed time 0.00 seconds
+11608   [23d]   INFO   2021-01-13 05:44:09.106   TM1.Process   Process "x_DATA - Save all" executed by user "UOFA/Service Account - Cognos"
+11608   [23d]   INFO   2021-01-13 05:44:11.187   TM1.Process   Process "x_DATA - Save all":  finished executing normally, elapsed time 2.08 seconds
+13696   [23f]   INFO   2021-01-13 05:50:47.377   TM1.Process   Process "UTILITY - Check USP Extract File" executed by user "UOFA/Service Account - Cognos"
+13696   [23f]   INFO   2021-01-13 05:50:47.399   TM1.Process   Process "UTILITY - Check USP Extract File":  finished executing normally, elapsed time 0.03 seconds
+12980   [241]   INFO   2021-01-13 05:50:47.706   TM1.Process   Process "x_DATA - Save all" executed by user "UOFA/Service Account - Cognos"
+12980   [241]   INFO   2021-01-13 05:50:47.714   TM1.Process   Process "x_DATA - Save all":  finished executing normally, elapsed time 0.02 seconds
+12828   [243]   INFO   2021-01-13 10:01:37.364   TM1.Process   Process "UTILITY - Check USP Extract File" executed by user "UOFA/Service Account - Cognos"
+12828   [243]   INFO   2021-01-13 10:01:37.385   TM1.Process   Process "UTILITY - Check USP Extract File":  finished executing normally, elapsed time 0.01 seconds
+13788   [245]   INFO   2021-01-13 10:01:37.700   TM1.Process   Process "x_DATA - Save all" executed by user "UOFA/Service Account - Cognos"
+13788   [245]   INFO   2021-01-13 10:01:37.706   TM1.Process   Process "x_DATA - Save all":  finished executing normally, elapsed time 0.00 seconds
+8788   [246]   INFO   2021-01-13 11:14:30.606   TM1.Process   Process "}tp_initialize_session" executed by user "UOFA/a1062444"                                        - david parker
+8788   [246]   INFO   2021-01-13 11:14:30.607   TM1.Process   Process "}tp_initialize_session":  finished executing normally, elapsed time 0.00 seconds
+10008   [247]   INFO   2021-01-13 11:19:54.291   TM1.Process   Process "}tp_initialize_session" executed by user "UOFA/a1062444"
+10008   [247]   INFO   2021-01-13 11:19:54.292   TM1.Process   Process "}tp_initialize_session":  finished executing normally, elapsed time 0.00 seconds
+6296   [248]   INFO   2021-01-13 11:20:30.024   TM1.Process   Process "}tp_initialize_session" executed by user "UOFA/a1062444"
+6296   [248]   INFO   2021-01-13 11:20:30.025   TM1.Process   Process "}tp_initialize_session":  finished executing normally, elapsed time 0.00 seconds
+12736   [24b]   INFO   2021-01-13 13:42:11.469   TM1.Process   Process "}tp_initialize_session" executed by user "UOFA/a1133227"                                      - daniel cahill
